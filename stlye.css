@@ -39,7 +39,7 @@ nav img{
 }
 .nav-links ul li::after{
   content: '';
-  width: 0%;
+  width: 0px;
   height: 2px;
   background: #f44336;
   display: block;
@@ -54,7 +54,7 @@ nav img{
   width: 100%;
   color: #fff;
   position: relative;
-  top:600px;
+  top:720px;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: left;
@@ -64,17 +64,19 @@ nav img{
   position: relative;
   font-size: 30px;
   margin:20px 0 0 0 ;
+  
   padding-top: 5px;
   padding-right: 30px;
   padding-bottom: 8px;
-  padding-left: 86px;
+  padding-left: 89px;
 }
 .text-box li{
+  font-size:20px ;
   position: relative;
   margin: 1px; 
   padding-top: 1px;
   padding-right: 30px;
-  padding-left: px;
+  padding-left: 89px;
   
 }
  
@@ -88,11 +90,14 @@ nav img{
 .pic1{
   
   position:relative ;
-  left:90px;
+  left: 90px;
   
 }
+.pic2{
+  display: none;
+}
 
-@media(max-width: 700px){
+@media (max-width: 500px){
   .header{
     min-height: 280vh;
     width: 100%;
@@ -106,21 +111,33 @@ nav img{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 35%;
-    left: 39%;
+    top: 50%;
+    left: 38%;
     transform: translate(-50%,-50%);
     text-align: left;
     padding-top: 42px;
   }
 
-  .text-box h1 li{
-    font-size: 5px;
-  margin:3px 0 0 0 ;
-  padding-top: px;
-  padding-right: 3px;
-  padding-bottom: 2px;
-  padding-left: 2px;
+  .text-box h1{
+    position: relative;
+    font-size: 28px;
+    margin:20px 0 0 0 ;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    padding-left: 86px;
   }
+  .text-box li{
+    position: relative;
+    font-size: 17px;
+    margin: 1px; 
+    padding-top: 1px;
+    padding-right: 30px;
+    padding-left: 90px;
+    
+  }
+
+  
   .nav-links ul li a{
     display: block;
   }
@@ -136,7 +153,8 @@ nav img{
     transition: 1s;
   }
   .icon1 {
-    display:block;
+  
+  display:block;
     color: black;
     margin: 10px;
     font-size: 22px;
@@ -159,11 +177,17 @@ nav img{
 
   }
   .pic1{
+    display: none;
     position:relative;
     left:80px;
     width: %;
-    display: 100px;
+    display: ;
     
+  }
+  .pic2{
+    display: block;
+    position:relative ;
+    left: 90px;
   }
 }
 

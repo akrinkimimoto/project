@@ -96,10 +96,10 @@ nav img{
 .pic2{
   display: none;
 }
+@media(max-width:776px){
 
-@media (max-width: 500px){
   .header{
-    min-height: 280vh;
+    min-height: 190vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(photos/Pixel\ Art\ Wallpaper\,\ Castle\,\ Japan\,\ Mountain\,\ Pixel\ Art\ •\ Wallpaper\ For\ You.jpg)
     ;
@@ -107,29 +107,32 @@ nav img{
     background-size: cover;
     position: relative;
   }
+  
+   
+  
   .text-box{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 38%;
     transform: translate(-50%,-50%);
     text-align: left;
-    padding-top: 42px;
+    padding-top: ;
   }
 
   .text-box h1{
     position: relative;
     font-size: 28px;
     margin:20px 0 0 0 ;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 8px;
     padding-left: 86px;
   }
   .text-box li{
     position: relative;
-    font-size: 17px;
+    font-size: 22px;
     margin: 1px; 
     padding-top: 1px;
     padding-right: 30px;
@@ -181,7 +184,7 @@ nav img{
     position:relative;
     left:80px;
     width: %;
-    display: ;
+    
     
   }
   .pic2{
@@ -189,5 +192,9 @@ nav img{
     position:relative ;
     left: 90px;
   }
+  
+ 
 }
+
+
 
